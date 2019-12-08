@@ -1,2 +1,6 @@
 ### Step Counter
-My basic step counter for android with minimal package size.
+My basic minimal step counter for android with step sensor support.
+
+#### Features
+- persistent notification counter
+- minimal size
