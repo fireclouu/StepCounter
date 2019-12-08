@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light">
+			<item name="android:windowActionBar">false</item>
+			<item name="android:windowNoTitle">true</item>
+	</style>
+	
+	<style name="DarkTheme" parent="@android:style/Theme.Material.Light">
+		<item name="android:background">#252525</item>
+		<item name="android:textColor">#f5f5f5</item>
+		<item name="android:windowActionBar">false</item>
+		<item name="android:windowNoTitle">true</item>
+	</style>
+	
+	<style name="GradientTheme" parent="@android:style/Theme.Material.Light">
+		<item name="android:background">@drawable/gradient_bg</item>
+		<item name="android:textColor">#f5f5f5</item>
+		<item name="android:windowActionBar">false</item>
+		<item name="android:windowNoTitle">true</item>
+	</style>
+	
+</resources>
