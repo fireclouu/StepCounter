@@ -131,7 +131,10 @@ public class MainActivity extends Activity
 	private void checkExtraIntent() {
 		boolean isCalledOnNotif = getIntent().getBooleanExtra("EXTRA_MISC", false);
 		if (isCalledOnNotif) {
-			Toast.makeText(getApplicationContext(), "It seems you called new instance in notification, some functions may fail if you dont restart the app", Toast.LENGTH_LONG).show();
+			Toast.makeText(getApplicationContext(), "Activity started using Pending Intent! Saving old data and restarting app...", Toast.LENGTH_LONG).show();
+			Intent intent = new Intent(this, MainActivity.class);
+			startActivity(intent);
+			
 		}
 	}
 	
